@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    background-color: #F8C8DC;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    width: 100vw;
+}
+
+#header{
+    display: flex;
+    font-size: 50px;
+    font-family:'Nunito';
+}
+
+/* GIF Container */
+.gif_container{
+    display: flex;
+    justify-content: center; 
+    margin-left: 90px;
+    margin-bottom: 50px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+/* Yes BTN */
+#yesbtn {
+    font-family:'Nunito';
+    font-size: 25px;
+    background-color: #FFB6C1;
+    height: 50px;
+    width: 100px;
+    border-radius: 8px;
+}
+
+#yesbtn:hover {
+    background-color: white;
+    color: #FFB6C1;
+}
+
+/* No BTN */
+#nobtn{
+    font-family:'Nunito';
+    font-size: 25px;
+    background-color: #FFB6C1;
+    height: 50px;
+    width: 100px;
+    border-radius: 8px;
+}
+
+#nobtn:hover {
+    background-color: white;
+    color: #FFB6C1;
+  }
